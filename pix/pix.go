@@ -138,10 +138,12 @@ func (p *Pix) Validates() error {
 	}
 
 	if utf8.RuneCountInString(p.params.merchant.name) > 25 {
-		return errors.New("name must be at least 25 characters long")
+		p.params.merchant.name = p.params.merchant.name[0:25]
+		// return errors.New("name must be at least 25 characters long")
 	}
 
 	if utf8.RuneCountInString(p.params.merchant.city) > 15 {
+		p.params.merchant.city = p.params.merchant.city[0:15]
 		return errors.New("city must be at least 15 characters long")
 	}
 
