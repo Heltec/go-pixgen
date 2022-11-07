@@ -7,8 +7,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
+	"github.com/Heltec/go-pixgen/qrcode"
 	"github.com/snksoft/crc"
-	"github.com/thiagozs/go-pixgen/qrcode"
 )
 
 type Pix struct {

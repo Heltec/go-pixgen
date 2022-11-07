@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/thiagozs/go-pixgen/pix"
+	"github.com/Heltec/go-pixgen/pix"
 )
 
 func main() {

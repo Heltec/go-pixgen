@@ -1,6 +1,6 @@
 # Go-PixGen
 
-<p align="center"><img alt="pix-utils" src="https://raw.githubusercontent.com/thiagozs/go-pixgen/main/assets/logo-pix.png" width="128px" /></p>
+<p align="center"><img alt="pix-utils" src="https://raw.githubusercontent.com/Heltec/go-pixgen/main/assets/logo-pix.png" width="128px" /></p>
 
 Generate ~~and validate~~ payments of Brazil Instant Payment System (Pix), making fast and simple to handle charges and proccess then in your project.
 
@@ -58,10 +58,10 @@ opts := []pix.Options{
 
 ## Contributing
 
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/thiagozs/go-genpix/compare).
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/Heltec/go-genpix/compare).
 
 ## Versioning and license
 
-Our version numbers follow the [semantic versioning specification](http://semver.org/). You can see the available versions by checking the [tags on this repository](https://github.com/thiagozs/go-pixgen/tags). For more details about our license model, please take a look at the [LICENSE](LICENSE) file.
+Our version numbers follow the [semantic versioning specification](http://semver.org/). You can see the available versions by checking the [tags on this repository](https://github.com/Heltec/go-pixgen/tags). For more details about our license model, please take a look at the [LICENSE](LICENSE) file.
 
-**2022**, thiagozs
+**2022**, Heltec
